@@ -1,0 +1,5 @@
+com\Load\Testing\pages\BasePage.class
+com\Load\Testing\pages\HomePage.class
+com\Load\Testing\pages\CustomWaits.class
+utility\TestUtil.class
+utility\FrameworkUtility.class

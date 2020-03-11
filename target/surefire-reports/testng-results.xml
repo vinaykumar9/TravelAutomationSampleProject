@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Load Testing Application" duration-ms="116419" started-at="2020-03-11T12:14:06Z" finished-at="2020-03-11T12:16:03Z">
+    <groups>
+    </groups>
+    <test name="Load testing Feature" duration-ms="116419" started-at="2020-03-11T12:14:06Z" finished-at="2020-03-11T12:16:03Z">
+      <class name="com.loadtesting.tests.HomePageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="beforeSuite" is-config="true" duration-ms="47" started-at="2020-03-11T17:44:06Z" finished-at="2020-03-11T17:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="beforeClass" is-config="true" duration-ms="591" started-at="2020-03-11T17:44:06Z" finished-at="2020-03-11T17:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="setUp" is-config="true" duration-ms="32073" started-at="2020-03-11T17:44:07Z" finished-at="2020-03-11T17:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="traveeling_mode()[pri:1, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="traveeling_mode" duration-ms="9807" started-at="2020-03-11T17:44:39Z" finished-at="2020-03-11T17:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- traveeling_mode -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="getResult" is-config="true" duration-ms="594" started-at="2020-03-11T17:44:49Z" finished-at="2020-03-11T17:44:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=traveeling_mode status=SUCCESS method=HomePageTest.traveeling_mode()[pri:1, instance:com.loadtesting.tests.HomePageTest@1a407d53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="setUp" is-config="true" duration-ms="29013" started-at="2020-03-11T17:44:49Z" finished-at="2020-03-11T17:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="travellingwithoutStartName()[pri:2, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="travellingwithoutStartName" duration-ms="12090" started-at="2020-03-11T17:45:18Z" finished-at="2020-03-11T17:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travellingwithoutStartName -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="getResult" is-config="true" duration-ms="376" started-at="2020-03-11T17:45:30Z" finished-at="2020-03-11T17:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=travellingwithoutStartName status=SUCCESS method=HomePageTest.travellingwithoutStartName()[pri:2, instance:com.loadtesting.tests.HomePageTest@1a407d53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="setUp" is-config="true" duration-ms="28127" started-at="2020-03-11T17:45:31Z" finished-at="2020-03-11T17:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyHomePageTitle()[pri:3, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="VerifyHomePageTitle" duration-ms="878" started-at="2020-03-11T17:45:59Z" finished-at="2020-03-11T17:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="getResult" is-config="true" duration-ms="887" started-at="2020-03-11T17:46:00Z" finished-at="2020-03-11T17:46:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyHomePageTitle status=SUCCESS method=HomePageTest.VerifyHomePageTitle()[pri:3, instance:com.loadtesting.tests.HomePageTest@1a407d53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="afterClass" is-config="true" duration-ms="1924" started-at="2020-03-11T17:46:01Z" finished-at="2020-03-11T17:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.loadtesting.tests.HomePageTest@1a407d53]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-03-11T17:46:03Z" finished-at="2020-03-11T17:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.loadtesting.tests.HomePageTest -->
+    </test> <!-- Load testing Feature -->
+  </suite> <!-- Load Testing Application -->
+</testng-results>
