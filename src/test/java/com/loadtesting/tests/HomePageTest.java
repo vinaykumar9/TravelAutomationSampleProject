@@ -53,7 +53,7 @@ public class HomePageTest extends BaseTest {
 public void VerifyHomePageTitle(){
     String title = home.getTitle();
     System.out.println(title);
-    Assert.assertEquals(title, "Airline Tickets and Airline Reservations from American Airlines | aa.com");
+    Assert.assertEquals(title, "Airline Tickets and Airline Reservations from American Airlines");
 	logger.log(LogStatus.FAIL, "VerifyHomePageTitle");
 
 }
